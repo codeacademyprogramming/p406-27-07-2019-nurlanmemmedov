@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    height: 3000px;
+background-color: black;
+
+}
+.body{
+    background-image: url('../image/adam-kool-ndN00KmbJ1c-unsplash.jpg');
+    background-size: cover;
+    position: relative;
+}
+#temp{  
+    height: 800px;
+    position: relative;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 60px;
+    margin: 1px 0px;
+    width: 100%;
+    transition: all .3s linear;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+
+}
+header .nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+ul li{
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 0 20px;
+    list-style-type: none
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.fixed{
+    background-color: white;
+    box-shadow: 0 0 20px 4px black;
+}
